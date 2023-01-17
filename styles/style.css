@@ -1,0 +1,15 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#profilePic {
+  width: 200px;
+}
+
+.nav:link {
+  color: #2028EE;
+}
+
+.nav:visited {
+  color: #2028EE;
+}
