@@ -1,0 +1,29 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+  font-family: 'Courier New', Courier, monospace;
+  color: #2028EE;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+.special {
+  color: #EF1584;
+  font-weight: bold;
+}
+
+.moodImg {
+  height: 100px;
+}
+
+.imdb:link {
+  color: #EF1584;
+}
+
+.imdb:visited {
+  color: #EF1584;
+}

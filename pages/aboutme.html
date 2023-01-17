@@ -4,16 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>About Me</title>
+    <link href="../styles/styleme.css" rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <h1>About You Kim Chhay</h1>
-      <p>Hi, this is Kim! I am a student at MIU.</p>
+      <h1 class="header">About You Kim Chhay</h1>
+      <p>Hi, this is <span class="special">Kim</span>! I am a student at <span class="special">MIU</span>.</p>
     </header>
 
     <section>
-      <h3>My Courses</h3>
+      <h3 class="header">My Courses</h3>
       <ul>
         <li>CS401 Modern Programming Practice</li>
         <li>CS472 Web Application Programming</li>
@@ -21,24 +22,24 @@
     </section>
 
     <section>
-      <h3>My Favorite Movies</h3>
+      <h3 class="header">My Favorite Movies</h3>
       <ol>
-        <li>Avatar (<a href="https://www.imdb.com/title/tt0499549/">IMDB</a>)</li>
-        <li>Avatar: The Way of Water (<a href="https://www.imdb.com/title/tt1630029/">IMDB</a>) </li>
-        <li>Mission Impossible Series (<a href="https://www.imdb.com/list/ls066600640/">IMDB</a>)</li>
+        <li>Avatar (<a class="imdb" href="https://www.imdb.com/title/tt0499549/">IMDB</a>)</li>
+        <li>Avatar: The Way of Water (<a class="imdb" href="https://www.imdb.com/title/tt1630029/">IMDB</a>) </li>
+        <li>Mission Impossible Series (<a class="imdb" href="https://www.imdb.com/list/ls066600640/">IMDB</a>)</li>
       </ol>
     </section>
 
     <section>
-      <h3>My Moods</h3>
+      <h3 class="header">My Moods</h3>
       <p>
-        Happy: <img src="../images/happy.jpg" alt="picture of happy luffy" height="100">
-        Sad: <img src="../images/sad.jpg" alt="picture of sad luffy" height="100">
+        Happy: <img class="moodImg" src="../images/happy.jpg" alt="picture of happy luffy">
+        Sad: <img class="moodImg" src="../images/sad.jpg" alt="picture of sad luffy">
       </p>
     </section>
 
     <section>
-      <h3>Fun Facts About My Neighbor</h3>
+      <h3 class="header">Fun Facts About My Neighbor</h3>
       <ul>
         <li>His name is Salah.</li>
         <li>He's sweet and caring.</li>
@@ -46,5 +47,12 @@
       </ul>
     </section>
 
+    <a href="https://validator.w3.org/nu/?doc=https://youkimchhay.github.io/cs472-wap/aboutme.html">
+      <img src="https://manalabs.org/img/w3c-html.png" alt="html validator logo">
+    </a>
+
+    <a href="https://jigsaw.w3.org/css-validator?uri=https://youkimchhay.github.io/cs472-wap/aboutme.html">
+      <img src="https://manalabs.org/img/w3c-css.png" alt="css validator logo">
+    </a>
   </body>
 </html>
