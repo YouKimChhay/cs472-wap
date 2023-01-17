@@ -11,6 +11,10 @@ header {
   border-bottom: 1px solid black;
 }
 
+#mood p {
+  display: inline;
+}
+
 .special {
   color: #EF1584;
   font-weight: bold;
@@ -20,10 +24,39 @@ header {
   height: 100px;
 }
 
+.imdb {
+  text-decoration: none;
+}
+
 .imdb:link {
   color: #EF1584;
 }
 
 .imdb:visited {
   color: #EF1584;
+}
+
+.imdb:hover {
+  text-decoration: underline;
+}
+
+p::first-letter {
+  font-size: 150%;
+}
+
+.movie-data dt {
+  color: #11b451;
+}
+
+#movie-list {
+  transform: rotate(180deg);
+  margin-left: 5%;
+}
+
+.movie-list-item {
+  transform: rotate(180deg);
+}
+
+.movie-title {
+  font-weight: bold;
 }
