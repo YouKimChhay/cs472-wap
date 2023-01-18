@@ -106,6 +106,10 @@ h1 {
   font-size: 8pt;
 }
 
+#overview dl {
+  margin-left: 10pt;
+}
+
 #overview dt {
   font-weight: bold;
   margin: 10pt auto;
