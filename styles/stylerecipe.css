@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/silverware.jpg);
+  background-image: url(../images/recipe/silverware.jpg);
   background-attachment: fixed;
   color: #404040;
   font-size: 11pt;
@@ -53,7 +53,7 @@ header p {
 }
 
 ul li {
-  list-style-image: url(../images/pie_bullet.png);
+  list-style-image: url(../images/recipe/pie_bullet.png);
 }
 
 footer {
