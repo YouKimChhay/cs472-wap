@@ -1,0 +1,39 @@
+#header {
+  background-color: darkturquoise;
+  text-align: center;
+  align-items: center;
+}
+
+#menu {
+  background-color: seagreen;
+}
+
+#m1, #m2, #m3 {
+  border-right: 1px solid black;
+  padding: 1% 2%;
+  color: white;
+  max-width: fit-content;
+}
+
+#col1 {
+  background-color: #828182;
+}
+
+#col2 {
+  background-color: #A2A2A2;
+}
+
+#col3 {
+  background-color: #E1E1E1;
+}
+
+#footer {
+  background-color: seagreen;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.h-10 {
+  height: 10%;
+}
