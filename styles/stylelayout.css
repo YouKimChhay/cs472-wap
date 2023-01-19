@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 600px) {
+  #container {
+    grid-template-rows: 2fr 1fr 8fr 2fr;
+  }
   #col1 {
     width: 50%;
   }
