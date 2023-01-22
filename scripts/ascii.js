@@ -18,12 +18,12 @@ let animationIndex = 0;
 let timer = 250;
 
 let fontSize = {
-  "Tiny": "7px",
-  "Small": "10px",
-  "Medium": "12px",
-  "Large": "16px",
-  "Extra Large": "24px",
-  "XXL": "32px"
+  "Tiny": "7pt",
+  "Small": "10pt",
+  "Medium": "12pt",
+  "Large": "16pt",
+  "Extra Large": "24pt",
+  "XXL": "32pt"
 };
 
 // let fontSizeClassName = {
