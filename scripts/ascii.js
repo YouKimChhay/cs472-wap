@@ -1,3 +1,4 @@
+"use strict"
 
 window.onload = load;
 
@@ -35,7 +36,7 @@ let fontSize = {
 // };
 
 function load() {
-  "use strict";
+  // "use strict";
 
   // console.log("hello");
 
