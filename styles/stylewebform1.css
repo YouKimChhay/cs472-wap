@@ -1,0 +1,33 @@
+#form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#email, #pwd, #url {
+  margin: 1% 0;
+  padding: 1%;
+  width: 50%;
+}
+
+#checkout-div {
+  padding: 2% 0;
+}
+
+#email-info {
+  margin: 0;
+  margin-bottom: 3%;
+  color: gray;
+}
+
+#btn {
+  width: max-content;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+#btn:hover {
+  opacity: 0.5;
+}

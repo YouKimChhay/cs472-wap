@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web form 1</title>
+    <link href="../styles/stylewebform1.css" rel="stylesheet">
+  </head>
+  <body>
+    <form action="" type="" id="form-container">
+      <label id="email-label" for="email">Email address</label>
+      <input id="email" name="email" type="email" placeholder="Enter email">
+      <p id="email-info">We'll never share your email with anyone else.</p>
+      <label id="pwd-label" for="pwd">Password</label>
+      <input id="pwd" name="pwd" type="text" placeholder="Password"
+              pattern="(?=.*[0-9])(?=.*[a-zA-Z]).{10,}"
+              title="at least 10 characters in length and contain at least one number and one uppercase and lowercase letter">
+      <div id="checkout-div">
+        <input id="checkout" name="checkout" type="checkbox">
+        <label for="checkout">Check me out</label>
+      </div>
+      <label for="url">URL</label>
+      <input id="url" name="url" type="text" placeholder="Enter url"
+              pattern="(^http:\/\/|^https:\/\/)[0-9a-zA-Z]+"
+              title="must start with http:// or https://">
+      <input id="btn" type="submit">
+    </form>
+  </body>
+</html>
