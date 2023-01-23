@@ -1,0 +1,143 @@
+nav {
+  background-color: rgb(37, 104, 249);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  padding: 0 3% 0 1%;
+  border-right: 1px solid white;
+}
+
+#link {
+  flex-grow: 2;
+}
+
+#link a {
+  border-right: 1px solid white;
+  padding: 0 5%;
+}
+
+#sign-out {
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+}
+
+#sign-out-btn {
+  border-radius: 5px;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+#p-label {
+  grid-area: pl;
+}
+#p-num {
+  grid-area: pn;
+}
+#n-label {
+  grid-area: nl;
+}
+#name {
+  grid-area: n;
+}
+#up-label {
+  grid-area: upl;
+}
+#u-price {
+  grid-area: up;
+}
+#q-label {
+  grid-area: ql;
+}
+#quantity {
+  grid-area: q;
+}
+#s-label {
+  grid-area: sl;
+}
+#supplier {
+  grid-area: s;
+  margin: auto;
+  width: 100%;
+}
+#d-label {
+  grid-area: dl;
+}
+#date {
+  grid-area: d;
+}
+#date-info {
+  grid-area: di;
+  margin: 0;
+  margin-bottom: 8%;
+  color: gray;
+}
+#btn-container {
+  grid-area: btn;
+  text-align: end;
+}
+#space {
+  grid-area: sp;
+}
+
+#form-container {
+  display: grid;
+  grid-template-areas: 
+    'pl ql'
+    'pn q'
+    'nl sl'
+    'n s'
+    'upl dl'
+    'up d'
+    'sp di'
+    'sp btn';
+
+  width: 80%;
+  margin: auto;
+}
+
+#p-num, #name, #u-price {
+  margin: 3% 6% 6% 0;
+}
+
+#quantity, #supplier, #date {
+  margin: 3% 0 6% 0;
+}
+
+input {
+  padding: 2%;
+}
+
+h2 {
+  padding-left: 7%;
+}
+
+#btn-container input {
+  margin: 0 3%;
+  background-color: white;
+}
+
+#btn-container input:hover {
+  opacity: 0.5;
+}
+
+#reset {
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: blue;
+}
+
+#cancel {
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+}
+
+#add {
+  border: 1px solid lightseagreen;
+  border-radius: 5px;
+  color: lightseagreen;
+}
