@@ -1,8 +1,11 @@
+let end = false;
+
 $(() => {
   // start the game
   $('#start').click(function(e) {
 
     // reset the maze
+    end = false;
     $('.boundary').each((i, v) => {
       $(v).removeClass('youlose');
     });
@@ -17,16 +20,13 @@ $(() => {
     $('#end').mouseover(function(e) {  
       if($('.youlose').length == 0) {
         $('#status').text("You win! :]");
+        end = true;
       }
     });
 
     // prevent cheating
-    $('body').children().each((i, v) => {
-      if(v.id != 'maze') {
-        $(v).mouseover(function(e) {
-          losing();
-        });
-      }
+    $('#maze').mouseleave(function(e) {
+      losing();
     });
   });
 
@@ -34,8 +34,10 @@ $(() => {
 
 // show red boundary and lose message
 function losing() {
-  $('.boundary').each((i, v) => {
-    $(v).addClass('youlose');
-  });
-  $('#status').text("Sorry, you lost :[");
+  if (!end) {
+    $('.boundary').each((i, v) => {
+      $(v).addClass('youlose');
+    });
+    $('#status').text("Sorry, you lost :[");
+  }
 }
